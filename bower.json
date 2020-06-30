@@ -1,7 +1,7 @@
 {
   "name": "adapt-odi-footerLink",
-  "version": "0.1.0",
-  "framework": "^2.0.0",
+  "version": "0.2.0",
+  "framework": ">=5.2.0",
   "homepage": "https://github.com/theodi/adapt-odi-footerLink",
   "issues": "",
   "displayName" : "Footer links",
