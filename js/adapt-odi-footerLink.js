@@ -28,6 +28,7 @@ define([
     },
 
     addLinks: function() {
+        var items = [];
         try {
             items = this.contentObject.get('_FooterLink')._items;
         } catch(err) {}
@@ -35,8 +36,8 @@ define([
             items = Adapt.course.get('_FooterLink')._items;
         }
         _.each(items, function(item) {
-            title = item.title;
-            link = item.link;
+            var title = item.title;
+            var link = item.link;
             try {
                 if( $('.about-links').prop('innerHTML').trim().length > 0) {
                     $('.about-links').append(' | ');
